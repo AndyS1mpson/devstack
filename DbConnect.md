@@ -23,18 +23,19 @@
     3. Mysql Workbench 
     
 Параметры базы данных для подключения:
-    * Dbname: edxapp
-    * Username: root
-    * Password: '' (empty)
-    * Host: localhost
-    * Port: 3306
+
+    DB_Name: edxapp
+    Username: root
+    Password: '' (empty)
+    Host: localhost
+    Port: 3306
     
 3. После подключения необходимо выполнить следующий SQL скрипт:
+    
     SELECT * FROM auth_user 
     
 В результате на экране будут выведены данные о пользователях:
 
 ![image](https://user-images.githubusercontent.com/45228812/110948167-12bf0e80-8352-11eb-8927-81950928f858.png)
 
-    
-    
+Как можно заметить, на фотографии последний пользователь с никнеймом andrey. Данный пользователь был добавлен чтобы продемонстрировать, что скрипт возвращает актуальные данные. 
