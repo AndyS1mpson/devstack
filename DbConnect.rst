@@ -4,4 +4,4 @@
 Склонить себе репозиторий [devstack](https://github.com/edx/devstack)  и выполнить инструкции в [Readme.rst](https://github.com/AndyS1mpson/devstack/blob/master/README.rst). Данные инструкции приведены для unix подобных систем 
 """"""""""""""""""
 
-## Подключение к базе данных 
+### Подключение к базе данных 
